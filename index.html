@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Example</title>
+
+    <!-- Link to Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!-- Link to Font Awesome Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Vendor css -->
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><b>Company</b></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-menu" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#hero"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                ABOUT
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">History</a>
+                <a class="dropdown-item" href="#">Vission Mission</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">OUR WORK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">OUR TEAM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-us">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- End Header -->
+
+    <section id="hero">
+      <div id="carouselExampleAutoplaying" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/img/about-bg.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/bg.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="services" class="services sections-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>OUR VALUES</h2>
+        </div>
+        <div class="card-list d-flex justify-content-center gap-5 mb-5">
+          <div class="card-1 d-block align-items-center text-center p-5">
+            <img
+              src="assets/img/icon/lightbulb-o.png"
+              width="30"
+              height="50"
+              alt=""
+            />
+            <h5 class="card-title">INNOVATIVE</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              voluptatum, quibusdam, quia, quod voluptates voluptatem
+            </p>
+          </div>
+
+          <div class="card-2 d-block align-items-center text-center p-5">
+            <img src="assets/img/icon/bank.png" width="50" height="50" alt="" />
+            <h5 class="card-title">LOYALTY</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              voluptatum, quibusdam, quia, quod voluptates voluptatem
+            </p>
+          </div>
+          <div class="card-3 d-block align-items-center text-center p-5">
+            <img
+              src="assets/img/icon/balance-scale.png"
+              width="50"
+              height="50"
+              alt=""
+            />
+            <h5 class="card-title">RESPECT</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              voluptatum, quibusdam, quia, quod voluptates voluptatem
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-us">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>CONTACT US</h2>
+        </div>
+        <form class="needs-validation" novalidate>
+          <div class="form-container">
+            <div class="mb-3">
+              <div class="col-sm-7">
+                <label for="formGroupExampleInput" class="form-label"
+                  >Nama</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="formGroupExampleInput"
+                  placeholder="Nama"
+                  required
+                />
+                <div class="invalid-feedback">Invalid nama</div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="col-sm-7">
+                <label for="formGroupExampleInput2" class="form-label"
+                  >Email</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="formGroupExampleInput2"
+                  placeholder="Email"
+                  required
+                />
+                <div class="invalid-feedback">Invalid email</div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="col-sm-7">
+                <label for="floatingTextarea2" class="form-label"
+                  >Message</label
+                >
+                <textarea
+                  class="form-control"
+                  placeholder="Message"
+                  id="floatingTextarea2"
+                  style="height: 100px"
+                  required
+                ></textarea>
+                <div class="invalid-feedback">This field is required</div>
+              </div>
+            </div>
+            <div class="mb-5 d-grid col-7">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer">
+      <div class="container mt-4">
+        <div class="copyright">Copyright &copy; 2016. PT.Company</div>
+        <div class="credits">
+          <!-- <a href="#" style="margin-right: 10px">
+            <img src="" alt="" width="20" height="20" />
+          </a> -->
+          <a href="#">
+            <img
+              src="assets/img/icon/facebook-official.png"
+              alt=""
+              width="20"
+              height="20"
+              style="margin-right: 5px"
+            />
+          </a>
+
+          <img
+            src="assets/img/icon/twitter.png"
+            alt=""
+            width="20"
+            height="20"
+          />
+        </div>
+      </div>
+    </footer>
+
+    <!-- Link to Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Vendor JS -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- custom js -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

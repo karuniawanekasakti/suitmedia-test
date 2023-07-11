@@ -1,0 +1,115 @@
+#navbarNav .nav-item {
+  font-weight: 500;
+}
+
+#navbarNav .nav-item:hover {
+  background-color: #c7cccf;
+}
+
+.navbar-brand {
+  padding-left: 150px;
+}
+
+.navbar-menu {
+  padding-right: 150px;
+}
+
+.navbar .dropdown:hover .dropdown-menu {
+  display: block;
+  width: 150px;
+  background-color: #fcfdfd;
+}
+
+.navbar .dropdown-toggle::after {
+  display: none;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+  font-weight: 500;
+}
+
+.section-header {
+  text-align: center;
+  padding-bottom: 60px;
+  margin-top: 100px;
+  margin-bottom: -65px;
+}
+
+.section-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.section-header h2:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--color-primary);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.card-list .card-1 {
+  background-color: #eb7b70;
+  width: 500px;
+  height: 300px;
+  border: 5px solid #ed7b71;
+}
+
+.card-list .card-2 {
+  background-color: #699971;
+  width: 500px;
+  height: 300px;
+}
+
+.card-list .card-3 {
+  background-color: #5497c2;
+  width: 500px;
+  height: 300px;
+}
+
+.card-title {
+  font-size: 16px;
+  margin-top: 5px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  margin: auto;
+  width: 900px;
+  margin-bottom: 100px;
+  margin-left: 350px;
+}
+
+.footer {
+  font-size: 14px;
+  background-color: #333333;
+  padding: 50px 0;
+  color: white;
+}
+
+.footer .copyright {
+  text-align: center;
+}
+
+.footer .credits {
+  padding-top: 4px;
+  text-align: center;
+  font-size: 13px;
+}
